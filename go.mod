@@ -1,4 +1,4 @@
-module protobuf_using_go
+module github.com/pandulaDW/go-json-to-proto
 
 go 1.16
 

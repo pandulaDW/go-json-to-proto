@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
+	"github.com/pandulaDW/go-json-to-proto/transactions"
 	"google.golang.org/protobuf/proto"
 	"log"
-	"protobuf_using_go/transactions"
 	"time"
 )
 
