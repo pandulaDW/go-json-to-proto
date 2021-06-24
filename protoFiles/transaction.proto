@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option go_package = "./transactions";
+
+message SingleTransaction {
+  int64 date = 1;
+  int32 amount = 2;
+  string transactionCode = 3;
+  float price = 4;
+  float total = 5;
+}
+
+message Transaction {
+  string id = 1;
+  int32  accountId = 2;
+  int32  transactionCount = 3;
+  int64 bucketStartDate = 4;
+  int64 bucketEndDate = 5;
+  repeated SingleTransaction transactions = 6;
+}

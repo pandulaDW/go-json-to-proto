@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./sales";
+
+message Sale {
+  int32 id = 1;
+  string item = 2;
+  float price = 3;
+  int32 quantity = 4;
+  int64 date = 5;
+}
